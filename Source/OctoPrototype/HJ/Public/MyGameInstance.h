@@ -19,9 +19,4 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	FString GetMyIpAddress();
-
-	void HandleNetworkFailure(UWorld* World, UNetDriver* NetDriver, ENetworkFailure::Type FailureType, const FString& ErrorString);	
-
-	UFUNCTION(BlueprintCallable)
-	void ClientTravel(FString path);
 };
